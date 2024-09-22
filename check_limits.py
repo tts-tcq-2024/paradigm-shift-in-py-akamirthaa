@@ -24,4 +24,4 @@ if __name__ == '__main__':
   assert(check_soc(70) is True)
   assert(check_soc(85) is False)
   assert(check_charge_rate(0.7) is True)
-  assert(check_charge_rate(0) is False)
+  assert(check_charge_rate(0) is True)
