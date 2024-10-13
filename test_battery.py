@@ -1,5 +1,5 @@
 import unittest
-from check_battery_limits import is_battery_ok
+from check_limits import is_battery_ok
 
 class TestBattery(unittest.TestCase):
 
