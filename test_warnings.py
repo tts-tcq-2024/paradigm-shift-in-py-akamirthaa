@@ -19,9 +19,5 @@ class TestWarnings(unittest.TestCase):
         self.assertEqual(charge_rate_warning(0.7), "Rate of charge is within safe limits" )
         self.assertEqual(charge_rate_warning(0.78), f'Rate of charge is 0.78 and reaching upper limit' )
 
-
-def test_warning_limits():
-    unittest.main()
-
 if __name__ == '__main__':
-    test_warning_limits()
+    unittest.main()
