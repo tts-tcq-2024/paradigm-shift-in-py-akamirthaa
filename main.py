@@ -1,11 +1,11 @@
+import unittest
 from check_limits import is_battery_ok
-from test_battery import test_battery_limits
-from test_warnings import test_warning_limits
+from test_battery import TestBattery
+from test_warnings import TestWarnings
 
-def main(temperature, soc, charge_rate):
-    is_battery_ok(temperature, soc, charge_rate)
-
+def main():
+    is_battery_ok(20, 40, 0.7)
+    
 if __name__ == '__main__':
-  main(20, 40, 0.7)
-  test_battery_limits()
-  test_warning_limits()
+    main()
+    unittest.main(exit=False)
