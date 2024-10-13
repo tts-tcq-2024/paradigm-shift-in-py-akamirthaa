@@ -10,8 +10,5 @@ class TestBattery(unittest.TestCase):
         self.assertEqual(is_battery_ok(20, 40, 0.9), False)
         self.assertEqual(is_battery_ok(44, 40, 0.7),True)
 
-def test_battery_limits():
-    unittest.main()
-
 if __name__ == '__main__':
-    test_battery_limits()
+    unittest.main()
