@@ -61,4 +61,4 @@ Shorten the Semantic distance
 
 ## Experience
 
-i had to change all most everything expect the logic to make the code reusable.
+i had to change almost everything expect the logic to make the code reusable.
